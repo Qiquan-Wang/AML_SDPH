@@ -14,7 +14,7 @@ This repository contains the following:
 - `.ipynb`: notebook to reproduce the models and predictions
 - `Figures.ipynb`: notebook to reproduce all figures and results
 
-The data can be found at [link]()
+The data can be found at [link](https://drive.google.com/file/d/14v3P8qcZBDP8Z1BZtfFc9K9scKrBinVQ/view?usp=sharing) for the knee and at [link](https://drive.google.com/file/d/14v3P8qcZBDP8Z1BZtfFc9K9scKrBinVQ/view?usp=sharing) for the long region.
 
 <!-- Package installation -->
 
