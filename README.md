@@ -40,16 +40,17 @@ For the computation of Gaussian kernel density approximations:
 - [scikit-learn](https://scikit-learn.org/stable/)
 - [KeOps](https://www.kernel-operations.io/keops/index.html)
 - [torch](https://pypi.org/project/torch/)
-The combination of keops and torch allows for GPU acceleration and is recommended for efficience.
+
+The combination of KeOps and torch allows for GPU acceleration and is recommended for efficiency.
 
 For local analysis:
 - [scikit-learn](https://scikit-learn.org/stable/)
 - [scikit-learn-extra](https://scikit-learn-extra.readthedocs.io/en/stable/)
 
 For global analysis:
--[BioPython](https://biopython.org/)
+- [BioPython](https://biopython.org/)
 
 For GMM:
--[pomegranate](https://pomegranate.readthedocs.io/en/latest/)
+- [pomegranate](https://pomegranate.readthedocs.io/en/latest/)
 
 
