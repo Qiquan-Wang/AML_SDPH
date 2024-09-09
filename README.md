@@ -12,7 +12,7 @@ We integrate Signed Distance Persistence Homology (SDPH) from [Song et al.](http
 ## Structure of the repository
 This repository contains the following:
 - Folder `Data_loading` contains Python script to load data from pickle files and the notebook `How_to_load_PHloc.ipynb` provides an example for generating the heatmaps from Gaussian kernel approximations.
-- Folder `GMM` contains notebooks to reproduce the Phase 0, I, and II models for the different quadrants, labelled as `<<quadrant>>_GMM.ipynb`. `Distance table.ipynb` contains code to reproduce quantitative evaluation of models.
+- Folder `GMM` contains notebooks to reproduce the Phase 0, I, and II models for the different quadrants, labelled as `<<quadrant>>_GMM.ipynb`. `Distance table.ipynb` contains code to reproduce quantitative evaluation of models. Notebooks `GMM_on_DPH.ipynb` and `Landscape_classification.ipynb' contain model comparisons using alternative pipeline.
 - Folder `Global Analysis` contains notebook for global analysis via hierarchical clustering on SDPH diagrams.
 - Folder `Local Analysis` contains notebooks for local analyses using different clustering methods on features extracted from SDPH diagrams, namely K-Means, GMM and CLARA, with varying number of clusters.
 - Utilities file `utils_load_PHloc.py` to load PH diagrams, critical points and critical sizes.
