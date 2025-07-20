@@ -12,7 +12,7 @@ We integrate Signed Distance Persistence Homology (SDPH) from [Song et al.](http
 ## Structure of the repository
 This repository contains the following:
 - Folder `Data_loading` contains Python script to load data from pickle files and the notebook `How_to_load_PHloc.ipynb` provides an example for generating the heatmaps from Gaussian kernel approximations.
-- Folder `GMM` contains notebooks to reproduce the Phase 0, I, and II models for the different quadrants, labelled as `<<quadrant>>_GMM.ipynb`. `Distance table.ipynb` contains code to reproduce quantitative evaluation of models. Notebooks `GMM_on_DPH.ipynb` and `Landscape_classification.ipynb` contain model comparisons using alternative pipeline.
+- Folder `GMM` contains notebooks to reproduce the Phase-dependent Gaussian mixture models for the different quadrants: `GMM_preprocessing.ipynb`, `Evaluate GMM Performance.ipynb` and `GMM plots.ipynb`. `Comparison to landscapes and images.ipynb` contains code to reproduce performance comparison with persistence landscapes and images. Notebooks `GMM_on_DPH_preprocessing.ipynb` and `GMM_on_DPH_evaluation.ipynb` provides the comparison with GMM based on distance PH. `Regression Model.ipynb` provides the initial study into time-continuous GMM on our data.`morphometrics.py` and `Morphometric_eval.ipynb` provides an evaluation using conventional morphometrics.
 - Folder `Global Analysis` contains notebook for global analysis via hierarchical clustering on SDPH diagrams.
 - Folder `Local Analysis` contains notebooks for local analyses using different clustering methods on features extracted from SDPH diagrams, namely K-Means, GMM and CLARA, with varying number of clusters.
 - Utilities file `utils_load_PHloc.py` to load PH diagrams, critical points and critical sizes.
@@ -43,12 +43,10 @@ For the computation of Gaussian kernel density approximations:
 
 The combination of KeOps and torch allows for GPU acceleration and is recommended for efficiency.
 
-For local analysis:
+For global and local analyses:
 - [scikit-learn](https://scikit-learn.org/stable/)
 - [scikit-learn-extra](https://scikit-learn-extra.readthedocs.io/en/stable/)
 
-For global analysis:
-- [BioPython](https://biopython.org/)
 
 For GMM:
 - [pomegranate](https://pomegranate.readthedocs.io/en/latest/)
